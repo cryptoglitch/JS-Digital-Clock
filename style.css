@@ -1,0 +1,32 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+
+}
+body{
+    display: grid;
+    place-items: center;
+    background: #131419;
+}
+.clock{
+    background: #131419;
+    height: 120px;
+    width: 500px;
+    line-height: 100px;
+    text-align: center;
+    padding: 0 10px;
+    box-shadow: -3px 3px 7px rgba(40, 130, 204, 0.05),
+                3px 3px 5px rgba(6, 0, 10, 0.5);
+}
+.clock .display{
+    font-size: 60px;
+    color: blueviolet;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
